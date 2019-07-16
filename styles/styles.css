@@ -51,7 +51,7 @@ header .logo:after {
 	text-align: center;
 	font-size: 16px;
 	left: 0;
-}	
+}
 
 header nav>ul>li{
 	display: inline;
@@ -184,7 +184,7 @@ div.sidebar .size-filter h4 {
 
 }
 
-div.sidebar .size-filter select {
+/*div.sidebar .size-filter select {
 	display: inline;
 	width: 40px;
 	padding: 4px 4px;
@@ -205,12 +205,12 @@ div.sidebar .size-filter select {
 div.sidebar .size-filter form>select>option {
 	padding: 1px 1px;
 	border-bottom: 1px solid #e6eaf0;
-}
+}*/
 
 
 div.sidebar .filters {
 	font-family: "Raleway", sans-serif;
-	font-size: 12px; 
+	font-size: 12px;
 	margin-top: 10px;
 	margin-left: 10px;
 	line-height: 30px;
