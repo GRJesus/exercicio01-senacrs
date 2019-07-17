@@ -397,7 +397,7 @@ div.content {
 	margin-left: 15px;
 }
 
-div.content img {
+div.content .itens {
 	display: inline;
 	margin-top: 10px;
 	margin-left: 10px;
