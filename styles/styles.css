@@ -184,24 +184,6 @@ div.sidebar .size-filter h4 {
 
 }
 
-/*div.sidebar .size-filter select {
-	display: inline;
-	width: 40px;
-	padding: 4px 4px;
-	height: 25px;
-	margin-right: 2px;
-	margin-top: 5px;
-	background: #f2f4f7;
-	border: 1px solid #f2f4f7;
-	overflow: hidden;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 100px;
-    border-radius: 15px;
-    font-size: 9px;
-    cursor: pointer;
-}
-
 div.sidebar .size-filter form>select>option {
 	padding: 1px 1px;
 	border-bottom: 1px solid #e6eaf0;
@@ -230,9 +212,9 @@ div.sidebar .brand-filter h4 {
 	color: black;
 	margin-bottom: 15px;
 	max-height: 130px;
-    padding: 0 6px 10px 0;
-    padding-top: 10px;
-    border-top: 1px solid #e6eaf0;
+  padding: 0 6px 10px 0;
+  padding-top: 10px;
+  border-top: 1px solid #e6eaf0;
 
 
 }
@@ -243,10 +225,10 @@ div.sidebar .brand-filter select {
 	margin-right: 2px;
 	margin-top: 5px;
 	border: none;
-    text-align: left;
-    vertical-align: middle;
-    font-size: 14px;
-    border-bottom: 1px solid #e6eaf0;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 14px;
+  border-bottom: 1px solid #e6eaf0;
 	font-family: "Raleway", sans-serif;
 }
 
@@ -264,7 +246,7 @@ div.sidebar .price-filter h4 {
 	color: black;
 	margin-bottom: 15px;
 	max-height: 130px;
-    padding: 0 6px 10px 0;
+  padding: 0 6px 10px 0;
 
 }
 
@@ -275,13 +257,13 @@ div.sidebar .price-filter select {
 	margin-right: 2px;
 	margin-top: 5px;
 	border: none;
-    text-align: left;
-    vertical-align: middle;
-    font-size: 14px;
-    border-bottom: 1px solid #e6eaf0;
-    font-family: "Raleway", sans-serif;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 14px;
+  border-bottom: 1px solid #e6eaf0;
+  font-family: "Raleway", sans-serif;
 }
-div.sidebar .colour-filter {
+div.sidebar .color-filter {
 	margin-top: 15px;
 	margin-left: 10px;
 	line-height: 10px;
@@ -289,32 +271,131 @@ div.sidebar .colour-filter {
 	padding-top: 10px;
 }
 
-div.sidebar .colour-filter h4 {
+div.sidebar .color-filter h4 {
 	font-family: "Raleway", sans-serif;
 	font-size: 14px;
 	color: black;
 	margin-bottom: 15px;
 	max-height: 130px;
-    padding: 0 6px 10px 0;
+  padding: 0 6px 10px 0;
 }
 
-div.sidebar .colour-filter select{
-	line-height: 0px;
-	width: 180px;
-	height: 80px;
-	margin-right: 2px;
-	margin-top: 0px;
-	border: none;
-    text-align: left;
-    vertical-align: middle;
-    font-size: 14px;
-    border-bottom: 1px solid #e6eaf0;
-   	font-family: "Raleway", sans-serif;
+div.sidebar .color-filter .color-yellow {
+  margin-bottom: 5px;
+  padding-left: 0px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+div.sidebar .color-filter .color-yellow::before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background: yellow;
+  display: inline-block;
 }
 
 .yellow {
 	height: 10px;
 	width: 10px;
+}
+
+div.sidebar .color-filter .color-blue {
+  margin-bottom: 5px;
+  padding-left: 0px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+div.sidebar .color-filter .color-blue::before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background: blue;
+  display: inline-block;
+}
+
+.blue {
+	height: 10px;
+	width: 10px;
+}
+
+div.sidebar .color-filter .color-black {
+  margin-bottom: 5px;
+  padding-left: 0px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+div.sidebar .color-filter .color-black::before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background: black;
+  display: inline-block;
+}
+
+.black {
+	height: 10px;
+	width: 10px;
+}
+
+div.sidebar .color-filter .color-lilac {
+  margin-bottom: 5px;
+  padding-left: 0px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+div.sidebar .color-filter .color-lilac::before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background: #bf0d90;
+  display: inline-block;
+}
+
+.lilac {
+	height: 10px;
+	width: 10px;
+}
+
+div.sidebar .color-filter .color-red {
+  margin-bottom: 5px;
+  padding-left: 0px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+div.sidebar .color-filter .color-red::before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background: #bf0d0d;
+  display: inline-block;
+}
+
+.red {
+	height: 10px;
+	width: 10px;
+}
+
+div.sidebar .genre-filter h4 {
+	font-family: "Raleway", sans-serif;
+	font-size: 14px;
+	color: black;
+	margin-bottom: 15px;
+  margin-top: 15px;
+	max-height: 130px;
+  padding: 0 6px 10px 0;
+  display: block;
+}
+​
+div.sidebar .genre-filter li {
+  padding-left: 10px;
+  font-family: "Raleway", sans-serif;
+	font-size: 14px;
+  margin-bottom: 10px;
 }
 
 div.content img {
