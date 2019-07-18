@@ -424,8 +424,7 @@ div.content .items a:hover img.over {
   display: block;
   opacity: 1;
 }
-
-@media (max-width: 400px) {
+@media (max-width: 768px) {
   div.sidebar {
     display: none;
   }
@@ -441,5 +440,58 @@ div.content .items a:hover img.over {
   }
   div.content .items:nth-child(2n) {
     margin-right: 0;
+  }
+  header .logo {
+  	width: 100px;
+  	height: 100px;
+  	border: 1px solid white;
+  	position: absolute;
+  }
+  header .logo:after {
+  	content: "Logo";
+  	position: absolute;
+  	top: 50%;
+  	color: white;
+  	font-family: "Reboto";
+  	width: 100%;
+  	text-align: center;
+  	font-size: 16px;
+  	left: 0;
+  }
+  /*media (min-width: 425px) and (max-width: 768px) se usar dessa forma ele não precisa respeitar a ordem do css, se eu usar da forma como coloquei o css tem que ter uma ordem do maior para o menor*/
+}
+@media (max-width: 425px) {
+  div.sidebar {
+    display: none;
+  }
+  div.content {
+    width: 100%;
+    margin: 0;
+  }
+  div.content .items {
+    width: calc(50% - 5px);
+  }
+  div.content .items:nth-child(3n) {
+    margin-right: 10px;
+  }
+  div.content .items:nth-child(2n) {
+    margin-right: 0;
+  }
+  header .logo {
+  	width: 50px;
+  	height: 50px;
+  	border: 1px solid white;
+  	position: absolute;
+  }
+  header .logo:after {
+  	content: "Logo";
+  	position: absolute;
+  	top: 50%;
+  	color: white;
+  	font-family: "Reboto";
+  	width: 100%;
+  	text-align: center;
+  	font-size: 16px;
+  	left: 0;
   }
 }/*Media e usado para fazer a pagina se adaptar a dispositivos moveis*/
