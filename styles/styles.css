@@ -418,6 +418,12 @@ div.content .search-query {
    padding: 5px;
  }
 
+div.content .items .check {
+  position: absolute;
+  top: 195px;
+  text-align: center;
+}
+
 div.content .items {
 	margin-right: 10px;
   margin-bottom: 10px;
@@ -446,6 +452,45 @@ div.content .items a:hover img.over {
   display: block;
   opacity: 1;
 }
+
+div.content .items .product-name{
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  margin: 0px;
+}
+
+div.content .items .price{
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  padding: 5px 10px;
+  margin: 10px 0;
+  color: white;
+  background: #38A9DE;
+  display: inline-flex;
+  font-weight: bolder;
+}
+
+div.content .items .price-before{
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  margin: 5px;
+  text-decoration: line-through;
+}
+
+div.content .items .price-after{
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  margin: 5px;
+  color: #38A9DE;
+  font-weight: bolder;
+}
+
+div.content .items .price-3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  margin: 5px;
+}
+
 @media (max-width: 768px) {
   div.sidebar {
     display: none;
