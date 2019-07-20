@@ -405,6 +405,7 @@ div.content .search-query {
   padding: 5px;
   font-weight: bolder;
 }
+
  div.content .block {
   font-family: "Raleway", sans-serif;
   font-size: 15px;
@@ -420,17 +421,30 @@ div.content .search-query {
 
 div.content .items .check {
   position: absolute;
-  top: 195px;
-  text-align: center;
+  top: 350px;
+  left: 150px;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  border: 1px solid;
+  visibility: hidden;
+  z-index: 2;
+  color: #38A9DE;
+  border-radius: 5px;
+  background-color: white;
+}
+
+div.content .items:hover .check {
+  visibility: visible;
 }
 
 div.content .items {
 	margin-right: 10px;
   margin-bottom: 10px;
 	float: left;
-	width: calc(33.333% - 6.666px);
+	width: calc(33.333% - 6.6666px);
   position:relative;
 }
+
 div.content .items img {
   width: 100%;
   display: block;
